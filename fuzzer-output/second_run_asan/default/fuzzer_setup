@@ -1,0 +1,7 @@
+# environment variables:
+AFL_CUSTOM_INFO_PROGRAM=./json-2017-02-12-fsanitize_fuzzer
+AFL_CUSTOM_INFO_PROGRAM_ARGV=
+AFL_CUSTOM_INFO_OUT=OUT/default
+AFL_LLVM_CMPLOG=1
+# command line:
+'afl-fuzz' '-i' 'seeds/' '-o' 'OUT' '--' './json-2017-02-12-fsanitize_fuzzer'
