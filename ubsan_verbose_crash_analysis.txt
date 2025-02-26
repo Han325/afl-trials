@@ -1,0 +1,136 @@
+=== Analyzing crashes in OUT ===
+
+Found 22 crash files
+
+Testing crash file: id:000000,sig:06,src:000103,time:11002,execs:402668,op:havoc,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000001,sig:06,src:000464,time:48089,execs:1532342,op:havoc,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000002,sig:06,src:001092,time:60078,execs:1809025,op:havoc,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000003,sig:06,src:001020,time:79693,execs:2248384,op:havoc,rep:4
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000004,sig:06,src:001020,time:115766,execs:3800005,op:havoc,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000005,sig:06,src:000061,time:123805,execs:4193278,op:havoc,rep:2
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000006,sig:06,src:001007,time:126689,execs:4332552,op:havoc,rep:3
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000007,sig:06,src:000598+000050,time:141410,execs:5047487,op:splice,rep:2
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000008,sig:06,src:000641+000994,time:151881,execs:5562402,op:splice,rep:3
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000009,sig:06,src:000590,time:168178,execs:6368156,op:havoc,rep:2
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000010,sig:06,src:000391,time:198560,execs:7893150,op:havoc,rep:2
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000011,sig:06,src:001007,time:236868,execs:9808576,op:havoc,rep:3
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000012,sig:06,src:000131,time:262707,execs:10985533,op:havoc,rep:2
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000013,sig:06,src:000540,time:419969,execs:18624634,op:havoc,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000014,sig:06,src:001013,time:1513486,execs:59977165,op:havoc,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000015,sig:06,src:000779,time:1549969,execs:61213798,op:havoc,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000016,sig:06,src:000167+000021,time:2094419,execs:80497699,op:splice,rep:4
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000017,sig:06,src:000721,time:2552702,execs:96971956,op:havoc,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000018,sig:06,src:000308+000792,time:3152889,execs:117919164,op:splice,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000019,sig:06,src:001162,time:3572837,execs:132046968,op:havoc,rep:3
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000020,sig:06,src:000085+001129,time:4366392,execs:159269409,op:splice,rep:1
+----------------------------------------
+json-2017-02-12-fsanitize_fuzzer: BUILD/test/src/fuzzer-parse_json.cpp:50: int LLVMFuzzerTestOneInput(const uint8_t *, size_t): Assertion `s1 == s2' failed.
+
+----------------------------------------
+
+Testing crash file: id:000021,sig:11,src:000431,time:4942800,execs:178972527,op:havoc,rep:7
+----------------------------------------
+
+----------------------------------------
+
+Analysis complete. Results saved in out_crash_analysis.txt
