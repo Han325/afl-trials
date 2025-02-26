@@ -1,6 +1,6 @@
-# AFL++ Trial with Google's Fuzzer Test Suite
+# AFL++ Triala with Google's Fuzzer Test Suite
 
-This is a trial for running **AFL++** with **Google's Fuzzer Test Suite** to evaluate fuzzing performance and detect crashes.  
+This is a series of trials for running **AFL++** with **Google's Fuzzer Test Suite** to evaluate fuzzing performance and detect crashes.  
 
 The focus is on analyzing how AFL++ performs on different test cases and identifying potential vulnerabilities.  
 
